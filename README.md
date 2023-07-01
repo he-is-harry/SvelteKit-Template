@@ -21,6 +21,7 @@ npm run dev
 # or start the server and open the app in a new browser tab
 npm run dev -- --open
 ```
+**Note:** You may want to initially run this command so that you create a `./.svelte-kit` folder for your `tsconfig.json`.
 
 ## Building
 
