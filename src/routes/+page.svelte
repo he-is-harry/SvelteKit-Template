@@ -13,3 +13,25 @@
         <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
     </div>
 </div>
+
+<style>
+    .two-columns {
+        display: flex;
+    }
+
+    
+    .center-columns {
+        text-align: center;
+        border: 5px solid;
+        margin: 10px;
+        width: 50%;
+    }
+
+    .orange-border {
+        border-color: #ec4d27;
+    }
+
+    .green-border {
+        border-color: green;
+    }
+</style>
