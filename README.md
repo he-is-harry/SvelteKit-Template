@@ -12,7 +12,13 @@ git clone https://github.com/he-is-harry/SvelteKit-Template.git
 # Then remove the current git repository from the project by running
 rm -rf .git*
 ```
+Alternatively, if you are running in a existing workspace
 
+```
+git clone https://github.com/he-is-harry/SvelteKit-Template.git
+```
+
+Then you just need to delete the `SvelteKit-Template` folder which also deletes the Github repository that this refers to. On Mac, you can delete this by pressing Command-Option-Delete **(⌘⌥⌫)**. On Windows, you should use Shift-Delete **(⇧⌫)**.
 
 ## Developing
 
