@@ -4,11 +4,11 @@ Everything you need to build a Svelte project, powered by [`create-svelte`](http
 
 ## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
+Follow the steps below to clone this specific branch for a SvelteKit template with compatibility with [PostCSS (Just In Time) Props](https://github.com/GoogleChromeLabs/postcss-jit-props).
 
 ```bash
-# create a new project in the current directory
-git clone https://github.com/he-is-harry/SvelteKit-Template.git
+# create a new project in the current directory with this specific postcss-open-props branch
+git clone -b postcss-open-props --single-branch https://github.com/he-is-harry/SvelteKit-Template.git
 # rename the repository name to your workspace name
 mv SvelteKit-Template project-name
 # enter your new workspace
@@ -19,7 +19,7 @@ rm -rf .git*
 Alternatively, if you are running in a existing workspace
 
 ```
-git clone https://github.com/he-is-harry/SvelteKit-Template.git
+git clone -b postcss-open-props --single-branch https://github.com/he-is-harry/SvelteKit-Template.git
 ```
 
 Then you just need to delete the `SvelteKit-Template` folder which also deletes the Github repository that this refers to. On Mac, you can delete this by pressing Command-Option-Delete **(⌘⌥⌫)**. On Windows, you should use Shift-Delete **(⇧⌫)**.
