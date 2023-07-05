@@ -9,6 +9,10 @@ If you're seeing this, you've probably already done this step. Congrats!
 ```bash
 # create a new project in the current directory
 git clone https://github.com/he-is-harry/SvelteKit-Template.git
+# rename the repository name to your workspace name
+mv SvelteKit-Template project-name
+# enter your new workspace
+cd project-name
 # Then remove the current git repository from the project by running
 rm -rf .git*
 ```
