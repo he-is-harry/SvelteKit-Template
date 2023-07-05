@@ -28,10 +28,10 @@
     }
 
     .orange-border {
-        border-color: #ec4d27;
+        border-color: var(--orange-7);
     }
 
     .green-border {
-        border-color: green;
+        border-color: var(--green-8);
     }
 </style>
