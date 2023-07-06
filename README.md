@@ -24,6 +24,9 @@ git clone -b postcss-open-props --single-branch https://github.com/he-is-harry/S
 
 Then you just need to delete the `SvelteKit-Template` folder which also deletes the Github repository that this refers to. On Mac, you can delete this by pressing Command-Option-Delete **(⌘⌥⌫)**. On Windows, you should use Shift-Delete **(⇧⌫)**.
 
+That's it! You can now jumpstart right into your project.
+In order for your project to feel more complete you may wish to modify the name of the project in your `package.json` file.
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
