@@ -1,6 +1,6 @@
 {
-	"name": "svelte-template",
-	"version": "1.1.0",
+	"name": "sveltekit-template",
+	"version": "1.0.0",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
