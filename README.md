@@ -6,6 +6,7 @@ Everything you need to build a Svelte project, powered by [`create-svelte`](http
 
 Follow the steps below to clone this specific branch for a SvelteKit template with compatibility with [PostCSS (Just In Time) Props](https://github.com/GoogleChromeLabs/postcss-jit-props).
 
+If you are on Mac, you can run the following commands to copy in the template and remove all of the git files for the template repository.
 ```bash
 # create a new project in the current directory with this specific postcss-open-props branch
 git clone -b postcss-open-props --single-branch https://github.com/he-is-harry/SvelteKit-Template.git
@@ -16,6 +17,19 @@ cd project-name
 # Then remove the current git repository from the project by running
 rm -rf .git*
 ```
+If you are on Windows, you can run these commands to accomplish the same thing.
+```bash
+# create a new project in the current directory
+git clone https://github.com/he-is-harry/SvelteKit-Template.git
+# rename the repository name to your workspace name
+ren SvelteKit-Template project-name
+# enter your new workspace
+cd project-name
+# Then remove the current git repository from the project by running these two commands
+rmdir /s /q .git
+del /s /a .git*
+```
+
 Alternatively, if you are running in a existing workspace
 
 ```
