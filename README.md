@@ -19,8 +19,8 @@ rm -rf .git*
 ```
 If you are on Windows, you can run these commands to accomplish the same thing.
 ```bash
-# create a new project in the current directory
-git clone https://github.com/he-is-harry/SvelteKit-Template.git
+# create a new project in the current directory with this specific postcss-open-props branch
+git clone -b postcss-open-props --single-branch https://github.com/he-is-harry/SvelteKit-Template.git
 # rename the repository name to your workspace name
 ren SvelteKit-Template project-name
 # enter your new workspace
